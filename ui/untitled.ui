@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>470</width>
+    <height>305</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -33,23 +33,11 @@
       </item>
      </layout>
     </item>
+    <item row="2" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout_2"/>
+    </item>
     <item row="1" column="0">
-     <layout class="QHBoxLayout" name="horizontalLayout_2">
-      <item>
-       <widget class="QToolButton" name="toolButton">
-        <property name="text">
-         <string>...</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QToolButton" name="toolButton_2">
-        <property name="text">
-         <string>...</string>
-        </property>
-       </widget>
-      </item>
-     </layout>
+     <widget class="QTableWidget" name="tableWidget"/>
     </item>
    </layout>
   </widget>
@@ -58,7 +46,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>470</width>
      <height>18</height>
     </rect>
    </property>
