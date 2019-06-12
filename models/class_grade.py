@@ -1,7 +1,9 @@
 
 class Class(object):
 
-    def __init__(self, name, course, teacher):
+    def __init__(self, name):
         self.name = name
-        self.course = course
-        self.teacher = teacher
+        self.course = []
+        self.teacher = []
+        self.student = []
+

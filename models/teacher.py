@@ -7,6 +7,8 @@ class Teacher(SchoolMember):
         # People.__init__(self,name,age,sex)
         super().__init__(name, age, sex)
         self.salary = salary
+        self.course = []
+        self.class_grade = []
 
     def show(self):
         print("老师的姓名:%s, 老师的年龄:%d" %(self.name,self.age))
